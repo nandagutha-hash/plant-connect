@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-inter: Inter;
+  background: #f7faf6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #f7faf6;
+  color: #102018;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(39, 131, 77, 0.22);
+}
+
+.leaf-particle {
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.24));
+}
+
+.map-grid {
+  background-image:
+    linear-gradient(rgba(23, 85, 52, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 85, 52, 0.12) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
